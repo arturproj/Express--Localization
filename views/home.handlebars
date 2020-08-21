@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="/">Express_l10n</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            {{#if frActive }}
+            <li class="nav-item active">
+                <a class="nav-link" href="/fr">Français <span class="sr-only">(current)</span></a>
+            </li>
+            {{else}}
+            <li class="nav-item">
+                <a class="nav-link" href="/fr">Français</a>
+            </li>
+            {{/if}}
+
+            {{#if itActive}}
+            <li class="nav-item active">
+            <a class="nav-link" href="/it">Italiano<span class="sr-only">(current)</span></a>
+            </li>
+            {{else}}
+            <li class="nav-item">
+                <a class="nav-link" href="/it">Italiano</a>
+            </li>
+            {{/if}}
+
+            {{#if enActive}}
+            <li class="nav-item active">
+            <a class="nav-link" href="/en">English<span class="sr-only">(current)</span></a>
+            </li>
+            {{else}}
+            <li class="nav-item">
+                <a class="nav-link" href="/en">English</a>
+            </li>
+            {{/if}}
+
+            {{#if esActive}}
+            <li class="nav-item active">
+            <a class="nav-link" href="/es">Español<span class="sr-only">(current)</span></a>
+            </li>
+            {{else}}
+            <li class="nav-item">
+                <a class="nav-link" href="/es">Español</a>
+            </li>
+            {{/if}}
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <h1>{{ title }}</h1>
+            <h2>{{ quest }}</h2>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <img class="img-fluid" src={{ source }} alt={{ title }} />
+        </div>
+    </div>
+</div>

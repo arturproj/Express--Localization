@@ -1,0 +1,23 @@
+{
+    "it" : {
+        "title" : "Ciao",
+        "quest" : "Come stai?",
+        "flag" : "https://restcountries.eu/data/ita.svg"
+    },
+    "en": {
+        "title": "Hello",
+        "quest": "What's up man?",
+        "flag" : "https://restcountries.eu/data/gbr.svg"
+    },
+    "es": {
+        "title": "Hola",
+        "quest": "Como estas ?",
+        "flag" : "https://restcountries.eu/data/esp.svg"
+    },
+    "fr": {
+        "title": "Bonjour",
+        "quest": "ça va ?",
+        "flag" : "https://restcountries.eu/data/fra.svg"
+    }
+    
+}
